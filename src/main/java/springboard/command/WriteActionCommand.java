@@ -17,7 +17,7 @@ public class WriteActionCommand implements BbsCommandImpl {
 		//Model에 저장된 값을 Map컬렉션으로 변환한다.
 		Map<String, Object> paramMap = model.asMap();
 		
-		//첫번째로 request내장객체를 가져온다.
+		//첫번째로 request내장객체를 가져온다. (왜 가져올까? 사용하지 않는데..)
 		HttpServletRequest req = (HttpServletRequest)paramMap.get("req");
 		
 		//두번째로 작성페이지에서 전송한 모든 폼값이 저장된 DTO객체를 가져온다.
