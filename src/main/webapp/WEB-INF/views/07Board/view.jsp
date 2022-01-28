@@ -45,11 +45,7 @@
 			</td>
 		</tr>		
 		<tr>
-			<td colspan="4" align="center">	
-			<button type="button" 
-				onclick="location.href='./reply.do?idx=${viewRow.idx}&nowPage=${nowPage }';">
-				답변글달기</button>
-			
+			<td colspan="3" align="center">	
 			<button type="button" 
 				onclick="location.href='./password.do?idx=${viewRow.idx}&mode=edit&nowPage=${nowPage }';">
 				수정하기</button>
